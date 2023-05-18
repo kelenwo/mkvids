@@ -45,6 +45,7 @@ class Admin extends BaseController
             'author' => 'mkvids',
             'date' => date("F j, Y")
         ];
+        
         $query = $builder->insert($data);
         return redirect()->route('manage/movies');
 
