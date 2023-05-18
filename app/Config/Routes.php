@@ -10,6 +10,7 @@ $routes = Services::routes();
  * Router Setup
  * --------------------------------------------------------------------
  */
+//$routes->setAutoRoute(true);
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
@@ -31,6 +32,10 @@ $routes->add('/', 'PublicController::index');
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('manage', 'Admin::index');
+$routes->get('manage/movies', 'Admin::movies');
+$routes->get('manage/add-movie', 'Admin::addMovie');
+$routes->post('manage/save-movie', 'Admin::saveMovie');
 
 /*
  * --------------------------------------------------------------------

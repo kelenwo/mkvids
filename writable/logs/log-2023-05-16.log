@@ -1,0 +1,41 @@
+CRITICAL - 2023-05-16 10:50:59 --> Cannot call constructor
+in APPPATH/Controllers/Admin.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:20:27 --> Field information is required.
+in SYSTEMPATH/Database/Forge.php on line 534.
+ 1 APPPATH/Controllers/Admin.php(45): CodeIgniter\Database\Forge->createTable()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->movies()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:21:45 --> Field information is required.
+in SYSTEMPATH/Database/Forge.php on line 534.
+ 1 APPPATH/Controllers/Admin.php(45): CodeIgniter\Database\Forge->createTable()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->movies()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:23:33 --> Field information is required.
+in SYSTEMPATH/Database/Forge.php on line 534.
+ 1 APPPATH/Controllers/Admin.php(45): CodeIgniter\Database\Forge->createTable()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->movies()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:23:34 --> Field information is required.
+in SYSTEMPATH/Database/Forge.php on line 534.
+ 1 APPPATH/Controllers/Admin.php(45): CodeIgniter\Database\Forge->createTable()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->movies()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 11:25:20 --> Field information is required.
+in SYSTEMPATH/Database/Forge.php on line 534.
+ 1 APPPATH/Controllers/Admin.php(45): CodeIgniter\Database\Forge->createTable()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin->movies()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

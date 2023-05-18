@@ -1,2 +1,4 @@
 RewriteEngine On
-RewriteRule ^$ public/ [L]
+
+# Unconditionally rewrite everything to the "public" subdirectory
+RewriteRule (.*) public/$1 [L]
