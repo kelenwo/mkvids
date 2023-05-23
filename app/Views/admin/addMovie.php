@@ -49,6 +49,7 @@
                             <label for="" class="btn btn-primary btn-block">
                                 <i class="fa fa-cloud-upload me-3"></i> Select image
                             </label>
+                            <input type="hidden" name="thumbnail" value="image.jpeg">
 
                         </div>
                         <div class="form-group mb-3">

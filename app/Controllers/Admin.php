@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\MovieModel;
 use Cassandra\Date;
 use CodeIgniter\Database\RawSql;
 
@@ -31,7 +32,7 @@ class Admin extends BaseController
         return view('admin/addMovie');
     }
     public function saveMovie() {
-        $db = \Config\Database::connect();
+        $model = new MovieModel();
         $data = [
             'title' => $this->request->getPost('title'),
             'genre' => $this->request->getPost('genre'),
@@ -45,9 +46,9 @@ class Admin extends BaseController
             'author' => 'mkvids',
             'date' => date("F j, Y")
         ];
-        
-        $query = $builder->insert($data);
-        return redirect()->route('manage/movies');
+
+        $model->insert($data);
+        return redirect()->to('/movies');
 
     }
     public function trending()
