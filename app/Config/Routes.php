@@ -32,6 +32,7 @@ $routes->add('/', 'PublicController::index');
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('details/(:num)', 'Home::details/$1');
 $routes->get('manage', 'Admin::index');
 $routes->get('manage/movies', 'Admin::movies');
 $routes->get('manage/add-movie', 'Admin::addMovie');

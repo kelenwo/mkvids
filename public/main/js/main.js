@@ -137,7 +137,7 @@ $(document).ready(function () {
 		mouseDrag: true,
 		touchDrag: true,
 		dots: true,
-		loop: true,
+		loop: false,
 		autoplay: false,
 		smartSpeed: 600,
 		margin: 20,
@@ -158,7 +158,7 @@ $(document).ready(function () {
 				margin: 30,
 			},
 			1200 : {
-				items: 6,
+				items: 4,
 				margin: 30,
 				dots: false,
 				mouseDrag: false,

@@ -1010,7 +1010,7 @@
 
 
 
-  <!-- 
+  <!--
     - #FOOTER
   -->
 
@@ -1122,14 +1122,6 @@
 
   </footer>
 
-
-
-
-
-  <!-- 
-    - #GO TO TOP
-  -->
-
   <a href="#top" class="go-top" data-go-top>
     <ion-icon name="chevron-up"></ion-icon>
   </a>
@@ -1138,12 +1130,12 @@
 
 
 
-  <!-- 
+  <!--
     - custom js link
   -->
   <script src="<?= base_url('public/')?>home/assets/js/script.js"></script>
 
-  <!-- 
+  <!--
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

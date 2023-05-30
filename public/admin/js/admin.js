@@ -91,7 +91,7 @@ $(document).ready(function () {
 		}
 	}
 
-	$('#form__img-upload').on('change', function() {
+	$('#thumbnail').on('change', function() {
 		readURL(this);
 	});
 

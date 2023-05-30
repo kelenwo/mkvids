@@ -343,7 +343,8 @@ body::-webkit-scrollbar-thumb {
   background-color: #151f30;
   margin-left: auto;
 }
-.sidebar__user-btn svg {
+.sidebar__user-btn svg,
+.sidebar__user-btn i {
   fill: #2f80ed;
   width: 20px;
   height: auto;
@@ -352,7 +353,8 @@ body::-webkit-scrollbar-thumb {
 .sidebar__user-btn:hover {
   background-color: #fff;
 }
-.sidebar__user-btn:hover svg {
+.sidebar__user-btn:hover svg,
+.sidebar__user-btn:hover i {
   fill: #151f30;
 }
 .sidebar__nav {
@@ -375,15 +377,18 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Rubik', sans-serif;
   margin-left: 30px;
 }
-.sidebar__nav-link svg {
+.sidebar__nav-link svg,
+.sidebar__nav-link i {
   fill: #e0e0e0;
   width: 24px;
+  font-size: 24px;
   height: auto;
   transition: fill 0.5s;
   margin-right: 15px;
   margin-bottom: 2px;
 }
-.sidebar__nav-link svg:last-child {
+.sidebar__nav-link svg:last-child,
+.sidebar__nav-link i:last-child {
   width: 16px;
   margin-right: 0;
   margin-top: 2px;
@@ -393,7 +398,8 @@ body::-webkit-scrollbar-thumb {
 .sidebar__nav-link:hover {
   color: #2f80ed;
 }
-.sidebar__nav-link:hover svg {
+.sidebar__nav-link:hover svg,
+.sidebar__nav-link:hover i {
   fill: #2f80ed;
 }
 .sidebar__nav-link--active,
@@ -401,7 +407,9 @@ body::-webkit-scrollbar-thumb {
   color: #2f80ed;
 }
 .sidebar__nav-link--active svg,
-.sidebar__nav-link[aria-expanded="true"] svg {
+.sidebar__nav-link--active i,
+.sidebar__nav-link[aria-expanded="true"] svg,
+.sidebar__nav-link[aria-expanded="true"] i {
   fill: #2f80ed;
 }
 .sidebar__nav-link--active {
@@ -570,7 +578,8 @@ body::-webkit-scrollbar-thumb {
   right: 20px;
   z-index: 2;
 }
-.main__title-form button svg {
+.main__title-form button svg,
+.main__title-form button i {
   width: 16px;
   height: auto;
 }
@@ -670,7 +679,8 @@ body::-webkit-scrollbar-thumb {
 .main__table-text a:hover {
   color: #2f80ed;
 }
-.main__table-text svg {
+.main__table-text svg,
+.main__table-text i {
   margin-right: 6px;
   fill: #2f80ed;
   width: 16px;
@@ -710,7 +720,8 @@ body::-webkit-scrollbar-thumb {
   background-color: #131720;
   margin-right: 10px;
 }
-.main__table-btn svg {
+.main__table-btn svg,
+.main__table-btn i {
   width: 20px;
   height: auto;
 }
@@ -720,7 +731,8 @@ body::-webkit-scrollbar-thumb {
 .main__table-btn--delete {
   background-color: rgba(235,87,87,0.1);
 }
-.main__table-btn--delete svg {
+.main__table-btn--delete svg,
+.main__table-btn--delete i {
   fill: #eb5757;
 }
 .main__table-btn--delete:hover {
